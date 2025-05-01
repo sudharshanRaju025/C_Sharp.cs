@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OOPs", "OOPs\OOPs.csproj", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exception_handling", "Exception_handling\Exception_handling.csproj", "{062A2AFA-852F-4DB2-AA55-83C608222320}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Linked_list", "Linked_list\Linked_list.csproj", "{BB1F2653-BDA6-42D7-AC9B-1D3B511C9E47}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{062A2AFA-852F-4DB2-AA55-83C608222320}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{062A2AFA-852F-4DB2-AA55-83C608222320}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{062A2AFA-852F-4DB2-AA55-83C608222320}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BB1F2653-BDA6-42D7-AC9B-1D3B511C9E47}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BB1F2653-BDA6-42D7-AC9B-1D3B511C9E47}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BB1F2653-BDA6-42D7-AC9B-1D3B511C9E47}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BB1F2653-BDA6-42D7-AC9B-1D3B511C9E47}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
