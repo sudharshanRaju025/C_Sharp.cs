@@ -4,6 +4,7 @@ using System.Security.Cryptography;
 using System.Linq;
 using System.Runtime.CompilerServices;
 using System.Globalization;
+using ARRAY;
 
 namespace ArrayIndexExample
 {
@@ -249,35 +250,41 @@ namespace ArrayIndexExample
 
 
             //getting of unique elements in array.
-            int[] array = { 1, 2, 3, 4, 6, 74, 3, 2, 1 };
+            //int[] array = { 1, 2, 3, 4, 6, 74, 3, 2, 1 };
 
-            Dictionary<int,int> frequency=new Dictionary<int,int>();
+            //Dictionary<int,int> frequency=new Dictionary<int,int>();
 
-            foreach(int j in array)
-            {
-                if (frequency.ContainsKey(j))
-                {
-                    frequency[j]++;
-                }
-                else
-                {
-                    frequency[j] = 1;
-                }
-            }
+            //foreach(int j in array)
+            //{
+            //    if (frequency.ContainsKey(j))
+            //    {
+            //        frequency[j]++;
+            //    }
+            //    else
+            //    {
+            //        frequency[j] = 1;
+            //    }
+            //}
 
-            Console.WriteLine("the number of duplicate elements in the array:");
-            int total = 0;
-            foreach (var i in frequency)
-            {
-               
-                if (i.Value ==1)
-                {
-                    
-                    Console.WriteLine($"the unique elemet {i.Key}");
-                    total += 1;
-                }
-            }
-            Console.WriteLine($"total number of unique elements:"+total);
+            //Console.WriteLine("the number of duplicate elements in the array:");
+            //int total = 0;
+            //foreach (var i in frequency)
+            //{
+
+            //    if (i.Value ==1)
+            //    {
+
+            //        Console.WriteLine($"the unique elemet {i.Key}");
+            //        total += 1;
+            //    }
+            //}
+            //Console.WriteLine($"total number of unique elements:"+total);
+
+            Linear linear = new Linear();
+            int[] A = { 12, 23, 34, 556, 100 };
+            int final = linear.Linearsearch(A, 5, 556);
+            Console.WriteLine($"The index of the element is:"+final);
+            Console.ReadLine();
 
         }
 
