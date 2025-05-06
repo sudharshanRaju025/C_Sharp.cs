@@ -20,10 +20,16 @@ namespace DSA
             //r.CalculateTreerecursive(6);
             //Console.ReadKey();
 
-            Factorial obj1 = new Factorial();
-            Console.WriteLine(obj1.Factorialiterative(3));
+            //Factorial obj1 = new Factorial();
+            //Console.WriteLine(obj1.Factorialiterative(3));
 
-            Console.WriteLine(obj1.Factorialrecursive(3));
+            //Console.WriteLine(obj1.Factorialrecursive(3));
+
+            SelectionSort sort = new SelectionSort();
+            int[] num = {1,22,3,4,11,45,76};
+            
+            sort.Selectionsort(num, 7);
+            sort.display(num, 7);
         }
     }
 }
