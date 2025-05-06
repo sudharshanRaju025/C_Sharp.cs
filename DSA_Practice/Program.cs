@@ -26,10 +26,19 @@ namespace DSA
             //Console.WriteLine(obj1.Factorialrecursive(3));
 
             SelectionSort sort = new SelectionSort();
-            int[] num = {1,22,3,4,11,45,76};
-            
-            sort.Selectionsort(num, 7);
-            sort.display(num, 7);
+            //int[] num = {1,22,3,4,11,45,76};
+
+            //sort.Selectionsort(num, 7);
+            //sort.display(num, 7);
+
+
+            //int[] num1 = { 1, 2, 3 };
+            //int[] num2 = { 1, 4, 6 };
+            //sort.Triplesum(num1, num2, 3, 3);
+            //Console.ReadLine();
+
+            int[] ints = { 87,92,90,199,190,203,84,66,189};
+            sort.Checking(ints, ints.Count());
         }
     }
 }
