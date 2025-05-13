@@ -14,22 +14,39 @@ namespace Collections.cs
 
             Names.Add(189);
             Names.Add(2);
-            Names.Add(24);
+            Names.Add(2);
             Names.Add(20);
-            Names.Add(237);
+            Names.Add(2);
             Names.Add(45);
-            Names.Add(234);
+            Names.Add(2);
             Names.Add(298);
             Names.Add(13);
+            Names.Add(13);
+            Names.Add(14);
+            Names.Add(14);
             Names.Add(197);
-            Names.Add(37);
+            Names.Add(3);
+            Names.Add(3);
 
+            var results=Names.
+            //order by descending
+            //var result = Names.Where(n=>n%2!=0).Distinct().OrderDescending();
+            //foreach(int i in result)
+            //{
+            //    Console.WriteLine(i);
+            //}
 
-            var result = Names.OrderBy(n=>n).Reverse();
-          foreach(int j in result)
-            {
-                Console.WriteLine(j);
-            }
+            //square of the each element in the array
+            //var result = Names.Select(x => x * x);
+            //foreach(int j in result){
+            //    Console.WriteLine(j);
+            //}
+
+            //var result = Names.Where(n=> n>90 && n<150).OrderBy(n=>n);
+            //foreach(int j in result)
+            //{
+            //    Console.WriteLine(j);
+            //}
 
             //var result = Names.Where(n => n % 2 == 0);
 

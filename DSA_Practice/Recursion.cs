@@ -18,15 +18,15 @@ namespace DSA_Practice
         //    }
         //}
 
-        public void CalculateTailrecursive(int n)//tail recursion
-        {
-            if (n > 0)
-            {
-                int k=n*n;
-                Console.WriteLine(k);
-                CalculateTailrecursive(n - 1);
-            }
-        }
+        //public void CalculateTailrecursive(int n)//tail recursion
+        //{
+        //    if (n > 0)
+        //    {
+        //        int k=n*n;
+        //        Console.WriteLine(k);
+        //        CalculateTailrecursive(n - 1);
+        //    }
+        //}
         //public void CalculateHeadrecursive(int n)//head recusrion
         //{
         //    if (n > 0)
@@ -49,14 +49,23 @@ namespace DSA_Practice
         //    }
         //}
 
-        public void TreeRecursive(int n)//tail recursion
+        //public void TreeRecursive(int n)//tail recursion
+        //{
+        //    if (n > 0)
+        //    {
+        //        TreeRecursive(n - 1);
+        //        int k = n * n;
+        //        Console.WriteLine(k);
+        //        TreeRecursive(n - 1);
+        //    }
+        //}
+        public void CalculateRecursive(int i)
         {
-            if (n > 0)
+            if (i > 0)
             {
-                TreeRecursive(n - 1);
-                int k = n * n;
-                Console.WriteLine(k);
-                TreeRecursive(n - 1);
+                CalculateRecursive(i - 1);
+                Console.WriteLine(i);
+                CalculateRecursive(i - 1);
             }
         }
     }

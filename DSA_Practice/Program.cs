@@ -1,4 +1,5 @@
 ﻿using System;
+using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.Design;
 using System.Linq;
 using DSA_Practice;
@@ -9,7 +10,7 @@ namespace DSA
     {
         static void Main(string[] args)
         {
-            Recursion r = new Recursion();
+            //Recursion r = new Recursion();
             //r.Calculateiterative(6);
             //Console.WriteLine("tail recursive:");
 
@@ -41,7 +42,14 @@ namespace DSA
             //int[] ints = { 87,92,90,199,190,203,84,66,189};
             //sort.Checking(ints, ints.Count());
 
-            r.TreeRecursive(2);
+            //r.CalculateRecursive(4);
+            InsertionSort Sort=new InsertionSort();
+            int[] numbers = [12,3,4, 5, 6, 7, 8, 2, 2, 4, 45, 6];
+            Console.WriteLine("Original Array:");
+            Sort.display(numbers,12);
+            Sort.InsertionSortMethod(numbers, 12);
+            Console.WriteLine("Sorted Array:");
+            Sort.display(numbers, 12);
         }
     }
 }
