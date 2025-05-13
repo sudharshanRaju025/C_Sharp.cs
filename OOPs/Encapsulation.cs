@@ -8,7 +8,7 @@ namespace oop_practice
 {
     public class Encapsulation
     {
-        private string name;
+        private string name="";
         private int age;
 
         public string Name

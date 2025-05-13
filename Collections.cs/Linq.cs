@@ -24,6 +24,13 @@ namespace Collections.cs
             Names.Add(197);
             Names.Add(37);
 
+
+            var result = Names.OrderBy(n=>n).Reverse();
+          foreach(int j in result)
+            {
+                Console.WriteLine(j);
+            }
+
             //var result = Names.Where(n => n % 2 == 0);
 
             //var result = Names.OrderByDescending(n => n).Select(n => $"numbers:{n}");
@@ -41,11 +48,11 @@ namespace Collections.cs
             //}
 
 
-            int[] result = Names.ToArray();
-           foreach(int j in result)
-            {
-                Console.WriteLine(j);
-            }
+           // int[] result = Names.ToArray();
+           //foreach(int j in result)
+           // {
+           //     Console.WriteLine(j);
+            //}
             
         }
     }

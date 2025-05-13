@@ -27,25 +27,36 @@ namespace DSA_Practice
                 CalculateTailrecursive(n - 1);
             }
         }
-        public void CalculateHeadrecursive(int n)//head recusrion
-        {
-            if (n > 0)
-            {
-                CalculateHeadrecursive(n - 1);
-                int k = n * n;
-                Console.WriteLine(k);
+        //public void CalculateHeadrecursive(int n)//head recusrion
+        //{
+        //    if (n > 0)
+        //    {
+        //        CalculateHeadrecursive(n - 1);
+        //        int k = n * n;
+        //        Console.WriteLine(k);
                 
-            }
-        }
-        public void CalculateTreerecursive(int n)//head recusrion
+        //    }
+        //}
+        //public void CalculateTreerecursive(int n)//head recusrion
+        //{
+        //    if (n > 0)
+        //    {
+        //        CalculateTreerecursive(n - 1);
+        //        int k = n * n;
+        //        Console.WriteLine(k);
+        //        CalculateTreerecursive(n - 1);
+
+        //    }
+        //}
+
+        public void TreeRecursive(int n)//tail recursion
         {
             if (n > 0)
             {
-                CalculateTreerecursive(n - 1);
+                TreeRecursive(n - 1);
                 int k = n * n;
                 Console.WriteLine(k);
-                CalculateTreerecursive(n - 1);
-
+                TreeRecursive(n - 1);
             }
         }
     }

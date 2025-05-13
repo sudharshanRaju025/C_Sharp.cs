@@ -1,4 +1,5 @@
 ﻿using System;
+using System.ComponentModel.Design;
 using System.Linq;
 using DSA_Practice;
 
@@ -25,7 +26,7 @@ namespace DSA
 
             //Console.WriteLine(obj1.Factorialrecursive(3));
 
-            SelectionSort sort = new SelectionSort();
+            //SelectionSort sort = new SelectionSort();
             //int[] num = {1,22,3,4,11,45,76};
 
             //sort.Selectionsort(num, 7);
@@ -37,8 +38,10 @@ namespace DSA
             //sort.Triplesum(num1, num2, 3, 3);
             //Console.ReadLine();
 
-            int[] ints = { 87,92,90,199,190,203,84,66,189};
-            sort.Checking(ints, ints.Count());
+            //int[] ints = { 87,92,90,199,190,203,84,66,189};
+            //sort.Checking(ints, ints.Count());
+
+            r.TreeRecursive(2);
         }
     }
 }
