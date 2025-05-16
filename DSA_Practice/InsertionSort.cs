@@ -32,6 +32,23 @@ namespace DSA_Practice
 
             Console.WriteLine();
         }
+
+        public void insertion_method1(int[] A,int n)
+        {
+            for(int i=0;i < n; i++)
+            {
+                var Value = A[i];
+                int Position = i;
+
+                while (Position>0 && A[Position - 1] > Value)
+                {
+                    A[Position] = A[Position - 1];
+                    Position = Position - 1;
+                }
+                A[Position] = Value;
+
+            }
+        }
         
     }
 }

@@ -32,7 +32,7 @@ namespace DSA_Practice
         {
             for(int i=0;i< n ; i++)
             {
-                Console.WriteLine(A[i]+" ");
+                Console.Write(A[i]+" ");
                 Console.WriteLine();
 
             }

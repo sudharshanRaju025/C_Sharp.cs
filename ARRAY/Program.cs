@@ -280,11 +280,15 @@ namespace ArrayIndexExample
             //}
             //Console.WriteLine($"total number of unique elements:"+total);
 
-            Linear linear = new Linear();
-            int[] A = { 12, 23, 34, 556, 100 };
-            int final = linear.Linearsearch(A, 5, 556);
-            Console.WriteLine($"The index of the element is:"+final);
-            Console.ReadLine();
+            //Linear linear = new Linear();
+            //int[] A = { 12, 23, 34, 556, 100 };
+            //int final = linear.Linearsearch(A, 5, 556);
+            //Console.WriteLine($"The index of the element is:"+final);
+            //Console.ReadLine();
+
+            DoWhile num = new DoWhile();
+            num.numbers();
+
 
         }
 
