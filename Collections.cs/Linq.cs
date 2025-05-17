@@ -80,18 +80,27 @@ namespace Collections.cs
             //}
 
 
-            List<string> fruits = new List<string>{ "Apple", "Banana", "Cherry", "Delta-42", "EchoStream", "FriendlyFox", "Green_Tiger",
-                              "HorizonSky", "IndigoMoon", "JupiterRise", "Kaleidoscope", "LavaLamp", "MysticRiver",
-                              "NeonNights", "OceanWave", "PixelRain", "QuantumLeap", "RocketFuel", "Sunflower_99",
-                              "TurboDrive" };
+            //List<string> fruits = new List<string>{ "Appley", "Bnanaa", "Cherryt", "Delta-42", "EchoStream", "FriendlyFox", "Green_Tiger",
+            //                  "HorizonSky", "IndigoMoon", "JupiterRise", "Kaleidoscope", "LavaLamp", "MysticRiver",
+            //                  "NeonNights", "OceanWave", "PixelRain", "QuantumLeap", "RocketFuel", "Sunflower_99",
+            //                  "TurboDrive" };
 
-            List<string> fruits1 = new List<string> {"Umbra_Shade", "VelvetDusk", "WildCanyon", "XenonFlash", "YellowZebra",
-                              "ZeroGravity", "AlphaByte", "BetaFusion", "CircuitBoard", "DragonFruit", "ElectricSheep",
-                              "Frostbite", "GalaxyCore", "HyperlinkHero", "IceCreamMan", "JavaBeans", "Kryptonite",
-                              "LightningBolt", "MarbleMaze", "NutmegDust", "Orbitron", "PrismLight", "QuokkaJump",
-                              "RainbowDash", "SnowGlider", "ThunderEcho", "UltraNova", "VaporTrail", "WindWhisper",
-                              "ZenGarden"};
+            //List<string> fruits1 = new List<string> {"Umbra_Shade", "VelvetDusk", "WildCanyon", "XenonFlash", "YellowZebra",
+            //                  "ZeroGravity", "AlphaByte", "BetaFusion", "CircuitBoard", "DragonFruit", "ElectricSheep",
+            //                  "Frostbite", "GalaxyCore", "HyperlinkHero", "IceCreamMan", "JavaBeans", "Kryptonite",
+            //                  "LightningBolt", "MarbleMaze", "NutmegDust", "Orbitron", "PrismLight", "QuokkaJump",
+            //                  "RainbowDash", "SnowGlider","hiiiii", "ThunderEcho", "UltraNova", "VaporTrail", "WindWhisper",
+            //                  "ZenGarden"};
 
+            //var All = fruits.SelectMany(f => f);
+            //foreach (var f in All)
+            //{
+            //    Console.WriteLine(f);
+            //}
+            //var length=fruits.Single(x=>x.Length==7);
+
+            //Console.WriteLine(length);
+          
 
 
             //bool result = fruits1.Any( s => s.StartsWith("C"));
