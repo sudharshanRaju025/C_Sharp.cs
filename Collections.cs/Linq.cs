@@ -10,25 +10,33 @@ namespace Collections.cs
     {
         public static void Main(string[] args)
         {
-            List<int> Names = new List<int>();
+            //List<int> Names = new List<int>();
 
-            Names.Add(189);
-            Names.Add(2);
-            Names.Add(2);
-            Names.Add(20);
-            Names.Add(2);
-            Names.Add(45);
-            Names.Add(2);
-            Names.Add(298);
-            Names.Add(13);
-            Names.Add(13);
-            Names.Add(14);
-            Names.Add(14);
-            Names.Add(197);
-            Names.Add(3);
-            Names.Add(3);
+            //Names.Add(189);
+            //Names.Add(2);
+            //Names.Add(2);
+            //Names.Add(20);
+            //Names.Add(2);
+            //Names.Add(45);
+            //Names.Add(2);
+            //Names.Add(298);
+            //Names.Add(13);
+            //Names.Add(13);
+            //Names.Add(14);
+            //Names.Add(14);
+            //Names.Add(197);
+            //Names.Add(3);
+            //Names.Add(3);
 
-            var results=Names.
+            //List<int> list2 = new List<int> { 3, 4, 5, 6 };
+
+
+            //var result = Names.Union(list2);
+
+            //foreach(int i in result)
+            //{
+            //    Console.WriteLine($"element :{i}");
+            //}
             //order by descending
             //var result = Names.Where(n=>n%2!=0).Distinct().OrderDescending();
             //foreach(int i in result)
@@ -65,12 +73,40 @@ namespace Collections.cs
             //}
 
 
-           // int[] result = Names.ToArray();
-           //foreach(int j in result)
-           // {
-           //     Console.WriteLine(j);
+            // int[] result = Names.ToArray();
+            //foreach(int j in result)
+            // {
+            //     Console.WriteLine(j);
             //}
+
+
+            List<string> fruits = new List<string>{ "Apple", "Banana", "Cherry", "Delta-42", "EchoStream", "FriendlyFox", "Green_Tiger",
+                              "HorizonSky", "IndigoMoon", "JupiterRise", "Kaleidoscope", "LavaLamp", "MysticRiver",
+                              "NeonNights", "OceanWave", "PixelRain", "QuantumLeap", "RocketFuel", "Sunflower_99",
+                              "TurboDrive" };
+
+            List<string> fruits1 = new List<string> {"Umbra_Shade", "VelvetDusk", "WildCanyon", "XenonFlash", "YellowZebra",
+                              "ZeroGravity", "AlphaByte", "BetaFusion", "CircuitBoard", "DragonFruit", "ElectricSheep",
+                              "Frostbite", "GalaxyCore", "HyperlinkHero", "IceCreamMan", "JavaBeans", "Kryptonite",
+                              "LightningBolt", "MarbleMaze", "NutmegDust", "Orbitron", "PrismLight", "QuokkaJump",
+                              "RainbowDash", "SnowGlider", "ThunderEcho", "UltraNova", "VaporTrail", "WindWhisper",
+                              "ZenGarden"};
+
+
+
+            //bool result = fruits1.Any( s => s.StartsWith("C"));
+            //Console.WriteLine(result);
             
+            //var result_set = name_set.Union(name_set1).OrderBy(x => x);
+
+            // int count=result_set.Count();
+            //Console.WriteLine(count);
+
+            //foreach (string i in result_set)
+            //{
+            //    Console.WriteLine(i);
+            //}
         }
     }
+    
 }
