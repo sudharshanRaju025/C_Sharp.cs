@@ -289,16 +289,21 @@ namespace ArrayIndexExample
             //DoWhile num = new DoWhile();
             //num.numbers();
 
-            Linear Method = new Linear();
-            int[] Numbers = { 473, 208,208, 951, 632, 147, 389, 721, 894, 302, 110,
-                              589, 765, 237, 916, 354, 498, 823, 641, 753, 276,
-                              187, 990, 523, 401, 618, 295, 137, 805, 668, 374,
-                              452, 726, 109, 688, 943, 367, 501, 258, 833, 912,
-                              115, 396, 734, 271, 309, 888, 222, 154, 497, 643};
+           // Linear Method = new Linear();
+           // int[] Numbers = { 473, 208,208, 951, 632, 147, 389, 721, 894, 302, 110,
+           //                   589, 765, 237, 916, 354, 498, 823, 641, 753, 276,
+           //                   187, 990, 523, 401, 618, 295, 137, 805, 668, 374,
+           //                   452, 726, 109, 688, 943, 367, 501, 258, 833, 912,
+           //                   115, 396, 734, 271, 309, 888, 222, 154, 497, 643};
 
-           var check= Method.Linearsearch(Numbers, Numbers.Count(), 208);
+           //var check= Method.Linearsearch(Numbers, Numbers.Count(), 208);
 
-            Console.WriteLine($"the index of the given number is : {check}");
+           // Console.WriteLine($"the index of the given number is : {check}")
+           // ;
+
+            Problems File=new Problems();
+            int[] numbers = { 1, 5, 4, 5, 6, 7, 8 };
+            File.Cube(numbers);
         }
 
     }

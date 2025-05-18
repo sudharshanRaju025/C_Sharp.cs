@@ -168,6 +168,25 @@ namespace Collections.cs
             //    Console.WriteLine(i);
             //}
 
+
+            Console.WriteLine("enter the string:");
+            string input = Console.ReadLine()!;
+            var uppercaseWords = input
+           .Split(new[] { ' ', '\t', '\n', '\r' }, StringSplitOptions.RemoveEmptyEntries)
+           .Where(word => word.All(char.IsUpper))
+           .ToList();
+
+            if (uppercaseWords.Any())
+            {
+                foreach(var i in uppercaseWords)
+                {
+                    Console.WriteLine(i);
+                }
+            }
+            else
+            {
+                Console.WriteLine("")
+            }
         }
     }
     
