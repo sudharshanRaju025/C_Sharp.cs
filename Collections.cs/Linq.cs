@@ -100,12 +100,12 @@ namespace Collections.cs
             //var length=fruits.Single(x=>x.Length==7);
 
             //Console.WriteLine(length);
-          
+
 
 
             //bool result = fruits1.Any( s => s.StartsWith("C"));
             //Console.WriteLine(result);
-            
+
             //var result_set = name_set.Union(name_set1).OrderBy(x => x);
 
             // int count=result_set.Count();
@@ -115,6 +115,59 @@ namespace Collections.cs
             //{
             //    Console.WriteLine(i);
             //}
+
+
+           
+
+            //"getting of the number and their square root"
+            //var result = numbers.Select(x => x  *x );
+            //var combined = result.Zip(numbers, (number, square_no) => new { number, square_no });
+            //List<int> num1 = result.ToList();
+            //foreach(var j in combined)
+            //{
+            //    Console.WriteLine(j);
+            //}
+
+
+            //"counting of the number of times element is repeated."
+            //var result = numbers.GroupBy(x => x).Select(group => new { number = group.Key, Count = group.Count() });
+
+            //Console.WriteLine("frequency list");
+            //foreach (var i in result)
+            //{
+            //    Console.WriteLine(i);
+            //}
+
+
+            //"counting the number of frequncy occurs for the char in string".
+            //Console.WriteLine("enter the string:");
+            //string name=Console.ReadLine()!;
+            //var frequency = name.GroupBy(x => x).Select(group => new { character = group.Key, frequency = group.Count() });
+
+            //foreach (var i in frequency)
+            //{
+            //    Console.WriteLine(i);
+            //}
+
+            List<int> numbers = new List<int> { 1, 2, 3, 43, 5, 45, 32, 3, 567, 876, 654, 568 };
+
+            //var result = numbers.Where(x => x > 80);
+            //foreach(var i in result)
+            //{
+            //    Console.WriteLine(i);
+            //}
+
+
+            //"getting of results from input number"
+            //Console.WriteLine("enter the number we want to greater than it:"); 
+            //int number=Convert.ToInt32(Console.ReadLine());
+
+            //var result = numbers.Where(x => x > number);
+            //foreach(var i in result)
+            //{
+            //    Console.WriteLine(i);
+            //}
+
         }
     }
     
